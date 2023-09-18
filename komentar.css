@@ -7,6 +7,9 @@
 a{
     text-decoration: none;
 }
+body{
+    background-color: #f8f9fa;
+}
 #testimonials{
     display: flex;
     justify-content: center;
@@ -47,11 +50,15 @@ a{
 .testimonials-box{
     width: 500px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
-    background-color:white;
+    background-color: #422691;
     padding: 20px;
     margin: 15px;
     cursor: pointer;
     border-radius: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
 }
 .profile-img img{
     width: 100%;
@@ -60,22 +67,10 @@ a{
     object-position: center;
     border-radius: 50%;
 }
-.profile{
-    display: flex;
-    align-items: center;
-}
-.name-user{
-    display: flex;
-    flex-direction: column;
-}
 .name-user strong{
-    color: #3d3d3d;
+    color: white;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
-}
-.name-user span{
-    color: #979797;
-    font-size: 0.8rem;
 }
 .profile-img{
     width: 50px;
@@ -94,7 +89,7 @@ a{
 }
 .student-comment{
     font-size: 0.9rem;
-    color: #4b4b4b;
+    color: white;
 }
 .testimonials-box:hover{
     transform: translateY(-10px);
